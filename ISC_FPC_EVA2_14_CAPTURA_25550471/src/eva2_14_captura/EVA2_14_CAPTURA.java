@@ -27,7 +27,16 @@ public class EVA2_14_CAPTURA {
         System.out.println("[" + califas[i] + "]");
         //for --> posiciones del arreglo
         // length --> tamaño exacto del arreglo
+        
     }
-    
+        int suma = 0;
+        //sumar todas las calificaciones 
+        for(int i = 0; i < califas.length; i++){
+         suma = suma + califas[i];
+         //suma += califas[i];
+        }
+                                  //CONVERSION O CASTING
+        double promedio = suma / (double)tama;//dividiendo enteros
+        System.out.println("Promedio = " + promedio);
 }
 }
